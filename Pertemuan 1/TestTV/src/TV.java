@@ -15,13 +15,11 @@ public class TV {
     }   
 
     // SETTING CHANNEL & VOLUME
-    public int setChannel(int newChannel) {
+    public void setChannel(int newChannel) {
         channel = newChannel;
-        return 0;
     }
-    public int setVolume(int newVolumeLevel){
+    public void setVolume(int newVolumeLevel){
         volumeLevel = newVolumeLevel;
-        return 0;
     }
 
     // UP AND DOWN
