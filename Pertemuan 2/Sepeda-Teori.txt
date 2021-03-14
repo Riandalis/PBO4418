@@ -1,0 +1,15 @@
+Nama 	 : Riandalis Purnama Deva
+Nim 	 : A11.2019.12337
+Kelompok : A11.4418
+Pemrogramman Berorientasi Objek
+
+KEGIATAN BERSEPEDA
+
+Atribut	 :
+Ban, Setang/Stang, pedal sepeda, rem, warna, tahun produksi
+sedel, 
+
+Behavior :
+Cara menjalankan sepeda
+Cara mengerem sepeda
+Cara membelokkan sepeda
