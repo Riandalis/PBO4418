@@ -5,99 +5,63 @@
  */
 package mvc.Model;
 
-/**
- *
- * @author Toshiba
- */
-public class Pendaftaran {
 
-    /**
-     * @return the nik
-     */
-    public Integer getNik() {
+public class Pendaftar {
+
+
+    public int getNik() {
         return nik;
     }
 
-    /**
-     * @param nik the nik to set
-     */
-    public void setNik(Integer nik) {
+    public void setNik(int nik) {
         this.nik = nik;
     }
 
-    /**
-     * @return the nama
-     */
     public String getNama() {
         return nama;
     }
 
-    /**
-     * @param nama the nama to set
-     */
     public void setNama(String nama) {
         this.nama = nama;
     }
 
-    /**
-     * @return the jk
-     */
     public String getJk() {
         return jk;
     }
 
-    /**
-     * @param jk the jk to set
-     */
     public void setJk(String jk) {
         this.jk = jk;
     }
 
-    /**
-     * @return the alamat
-     */
+  
     public String getAlamat() {
         return alamat;
     }
 
-    /**
-     * @param alamat the alamat to set
-     */
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
 
-    /**
-     * @return the usia
-     */
-    public String getUsia() {
+    public int getUsia() {
         return usia;
     }
-
-    /**
-     * @param usia the usia to set
-     */
-    public void setUsia(String usia) {
+    
+    public void setUsia(int usia) {
         this.usia = usia;
     }
 
-    /**
-     * @return the alasan
-     */
     public String getAlasan() {
         return alasan;
     }
 
-    /**
-     * @param alasan the alasan to set
-     */
     public void setAlasan(String alasan) {
         this.alasan = alasan;
     }
-    private Integer nik;
+    
+    private int nik;
     private String nama;
     private String jk;
     private String alamat;
-    private String usia;
+    private int usia;
     private String alasan;
 }

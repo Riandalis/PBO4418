@@ -5,29 +5,25 @@
  */
 package mvc.Koneksi;
 
-import com.mysql.cj.jdbc.MysqlDataSource;
+import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-/**
- *
- * @author Toshiba
- */
 public class Koneksi {
-    static Connection con;
+    static Connection conn;
     
-    public static Connection connection() {
-        if ( con == null ) {
+    public static Connection connection(){
+        if (conn ==null){
             MysqlDataSource data = new MysqlDataSource();
             data.setDatabaseName("db_dutacoding");
-            data.setUser("root");
             data.setPassword("");
+            data.setUser("root");
             try {
-                con = data.getConnection();
-            } catch (SQLException ex) {
-                System.out.println("tidak konek");
+                conn = (Connection) data.getConnection();
+            } catch (SQLException e) {
+                System.out.println("Tidak tersambung");
             }
         }
-        return con;
+        return conn;
     }
 }

@@ -4,15 +4,17 @@
  * and open the template in the editor.
  */
 package mvc.DAOInterface;
+
 import java.util.List;
-import mvc.Model.Pendaftaran;
+import mvc.Model.Pendaftar;
+
 /**
  *
- * @author Toshiba
+ * @author acer
  */
-public interface IPendaftaran {
-    public void insert(Pendaftaran b);
-    public void update(Pendaftaran b);
-    public void delete(int nik);
-    public List<Pendaftaran> getAll();
+public interface IDutaCoding {
+    public void insert(Pendaftar b);
+    public void update(Pendaftar b);
+    public void delete(int NIK);
+    public List<Pendaftar> getAll();
 }
