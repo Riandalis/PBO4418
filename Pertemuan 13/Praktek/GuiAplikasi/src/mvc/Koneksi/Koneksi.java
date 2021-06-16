@@ -5,15 +5,12 @@
  */
 package mvc.Koneksi;
 
-import com.mysql.cj.jdbc.MysqlDataSource;
+import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- *
- * @author rizqullahramadhan
- */
+
 public class Koneksi {
     static Connection connect;
     public static Connection connect(){

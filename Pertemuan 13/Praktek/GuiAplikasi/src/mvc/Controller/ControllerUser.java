@@ -11,10 +11,7 @@ import mvc.View.*;
 import java.util.List;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author rizqullahramadhan
- */
+
 public final class ControllerUser {
     FormUser form;
     DaoInterface iuser;

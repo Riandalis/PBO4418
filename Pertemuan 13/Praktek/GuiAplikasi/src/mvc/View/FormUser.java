@@ -12,10 +12,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-/**
- *
- * @author rizqullahramadhan
- */
+
 public class FormUser extends javax.swing.JFrame {
     ControllerUser userController;
 

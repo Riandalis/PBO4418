@@ -21,10 +21,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-/**
- *
- * @author rizqullahramadhan
- */
+
 public class KoneksiQuery implements DaoInterface{
     public static String insert = "INSERT INTO tbl_pendaftaran (id,nik, nama, jenis_kelamin, alamat, usia, alasan) VALUES (null,?, ?, ?, ?, ?, ?);";
     public static String update = "UPDATE tbl_pendaftaran SET nik=?,nama=?,jenis_kelamin=?,alamat=?,usia=?,alasan=? WHERE id=?;";

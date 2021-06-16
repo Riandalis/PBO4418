@@ -13,10 +13,7 @@ import mvc.Dao.*;
 import java.util.List;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author rizqullahramadhan
- */
+
 public final class ControllerAdmin {
     FormAdmin form;
     DaoInterface iuser;

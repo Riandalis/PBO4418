@@ -6,10 +6,8 @@
 package mvc.Dao;
 import mvc.Model.ModelUser;
 import java.util.List;
-/**
- *
- * @author rizqullahramadhan
- */
+
+
 public interface DaoInterface {
     public void insert(ModelUser user);
     public void update(ModelUser user);

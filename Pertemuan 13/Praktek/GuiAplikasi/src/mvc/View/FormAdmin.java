@@ -15,10 +15,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-/**
- *
- * @author rizqullahramadhan
- */
+
 public class FormAdmin extends javax.swing.JFrame {
     ControllerAdmin adminController;
     /**
